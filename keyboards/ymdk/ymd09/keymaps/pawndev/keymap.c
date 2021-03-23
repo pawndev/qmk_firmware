@@ -23,7 +23,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_FX] = LAYOUT(KC_F1, KC_F2, KC_F3,
                  KC_F4, KC_F5, KC_F6,
                  KC_F7, KC_F8, LT(_UTILS, KC_F9)),
-  
+
   /* _UTILS
   * This layer serve to persist another layer as default
   * .--------------------------.
@@ -51,7 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_F1X] = LAYOUT(KC_F13, KC_F14, KC_F15,
                   KC_F16, KC_F17, KC_F18,
                   KC_F19, KC_F20, LT(_UTILS, KC_F21)),
-  
+
   /* _MEDIA
   *  Hold on the bottom right key will  give you the '_UTILS' layer
   * .--------------------------.
@@ -79,7 +79,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_RGB] = LAYOUT(RGB_RMOD, RGB_TOG, RGB_MOD,
                   RGB_HUI,  RGB_SAD, RGB_SAI,
                   RGB_HUD,  KC_TRNS, LT(_UTILS, KC_TRNS)),  // Replace TRNS by other RGB method
-  
+
   /* _NUMB
   *  Hold on '9' key will give you the '_UTILS' layer
   * .------------------------.
@@ -90,9 +90,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   * |   5   |   6   |   7    |
   * '------------------------'
   */
-  [_NUMB] = LAYOUT(KC_1, KC_2, KC_3,
-                   KC_4, KC_5, KC_6,
-                   KC_7, KC_8, LT(_UTILS, KC_9)),
+  [_NUMB] = LAYOUT(KC_KP_1, KC_KP_2, KC_KP_3,
+                   KC_KP_4, KC_KP_5, KC_KP_6,
+                   KC_KP_7, KC_KP_8, LT(_UTILS, KC_KP_9)),
 
 };
 
